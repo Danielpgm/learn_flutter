@@ -39,7 +39,8 @@ class CardExample extends StatelessWidget{
                 TextButton(onPressed: (){/*...*/}, child: Text("BUY TICKETS")),
                 const SizedBox(width: 5),
                 TextButton(onPressed: (){debugPrint('ini debug');}, child: Text("LISTEN")),
-                const SizedBox(width: 5)
+                const SizedBox(width: 5),
+                TextButton(onPressed: (){debugPrint('ini debug');}, child: Text("LISTEN")),
               ]
             ),
           ],
