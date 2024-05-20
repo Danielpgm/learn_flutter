@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
-
 }
 
 class MyApp extends StatelessWidget {
@@ -40,8 +39,7 @@ class CardExample extends StatelessWidget{
                 TextButton(onPressed: (){/*...*/}, child: Text("BUY TICKETS")),
                 const SizedBox(width: 5),
                 TextButton(onPressed: (){debugPrint('ini debug');}, child: Text("LISTEN")),
-                const SizedBox(width: 5),
-                TextButton(onPressed: (){debugPrint('ini debug');}, child: Text("LISTEN")),
+                const SizedBox(width: 5)
               ]
             ),
           ],
